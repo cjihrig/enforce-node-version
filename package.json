@@ -1,0 +1,27 @@
+{
+  "name": "enforce-node-version",
+  "version": "0.1.0",
+  "description": "npm script to enforce the engines.node field in package.json",
+  "author": "Continuation Labs <contact@continuation.io> (http://continuation.io/)",
+  "bin": {
+    "enforce-node-version": "./bin/enforce.js"
+  },
+  "homepage": "https://github.com/continuationlabs/enforce-node-version",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/continuationlabs/enforce-node-version.git"
+  },
+  "bugs": {
+    "url": "https://github.com/continuationlabs/enforce-node-version/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "semver": "5.4.1"
+  },
+  "keywords": [
+    "script",
+    "install",
+    "version",
+    "enforce"
+  ]
+}
